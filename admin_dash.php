@@ -57,14 +57,14 @@
 </head>
 <body>
     <div class="container-fluid" ><button class="btn btn-dark"> <a href="index.php">home</a> </button>
-    <h1>welcome Admin</h1>
+    <h1 style="color:gray" >WELCOME ADMIN</h1>
         <div class="main"></div><br>
         
         <div class="boxes">
-            <div class="box1 box2"> <a href="reg_mobile.php" class="text-light" >REGISTER MOBILE</a> </div>
-            <div class="box1 box3"> <a href="view_mob.php">MANAGE PRODUCTS</a></div>
-            <div class="box1 box4"> <a href="show_reg.php">REGISTERED CUSTOMER</a> </div>
-            <div class="box1 box5"> <a href="purchase_item.php">PURCHASE REQUEST</a> </div>
+            <div class="box1 box2"> <a href="reg_mobile.php" class="text-dark" >REGISTER MOBILE</a> </div>
+            <div class="box1 box3"> <a href="view_mob.php" class="text-dark">MANAGE PRODUCTS</a></div>
+            <div class="box1 box4"> <a href="show_reg.php" class="text-dark">REGISTERED CUSTOMER</a> </div>
+            <div class="box1 box5"> <a href="purchase_item.php"class="text-dark">PURCHASE REQUEST</a> </div>
         </div>
     </div>
     

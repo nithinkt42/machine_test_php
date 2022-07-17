@@ -12,8 +12,10 @@ if(isset($_POST['reg_btn'])){
     
     $result=mysqli_query($connect,$sql);
     if($result){
-        echo "success";
+        header('location:index.php');
        
+    }else{
+      header('location:user_reg.php');
     }
  
 }
